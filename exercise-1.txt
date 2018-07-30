@@ -29,9 +29,9 @@ END
 ->Algoritma
 1.Simpan "tahun yang dites" dengan nilai berapapun.
 2.Simpan "jenis tahun" jangan diberi isian text. Ini akan kita isi nanti.
-3.Hitung pembagian "tahun yang dites" dengan 4.
+3.Hitung modulus "tahun yang dites" dengan 4.
 4.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 1"
-5.Hitung pembagian "tahun yang di tes" dengan 100.
+5.Hitung modulus "tahun yang di tes" dengan 100.
 6.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 2"
 5.Jika hasil "hitungan 1" adalah 0 dan hasil "hitungan 2" bukan 0 maka tampilkan tulisan "Tahun Kabisat", selain hal diatas tampilkan tulisan "Bukan Tahun Kabisat". 
 
@@ -40,9 +40,9 @@ PROGRAM tahun_kabisat
 DEKLARASI
   STORE "tahunyangdites" to any number
 DESKRIPSI
-  CALCULATE "tahunyangdites" divided 4
+  CALCULATE "tahunyangdites" modulus 4
   STORE "hasilhitung1" to the result of calculation
-  CALCULATE "tahunyangdites" divided 100
+  CALCULATE "tahunyangdites" modulus 100
   STORE "hasilhitung2" to the result of calculation
   IF "hasilhitung1" equals to 0 and "hasilhitung2" not equal to 0 
     DISPLAY "Tahun kabisat!"
@@ -55,11 +55,11 @@ END
 ->Algoritma
 1.Simpan "tahun yang di tes" dengan nilai berapapun.
 2.Simpan "jenis tahun" jangan diberi isian text. Ini akan kita isi nanti.
-3.Hitung pembagian "tahun yang di tes" dengan 4.
+3.Hitung modulus "tahun yang di tes" dengan 4.
 4.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 1".
-5.Hitung pembagian "tahun yang di tes" dengan 100.
+5.Hitung modulus "tahun yang di tes" dengan 100.
 6.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 2".
-5.Hitung pembagian "tahun yang di tes" dengan 400.
+5.Hitung modulus "tahun yang di tes" dengan 400.
 6.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 3"
 5.Jika hasil "hitungan 1" adalah 0 dan hasil "hitungan 2" adalah 0 dan "hasil perhitungan 3" adalah 0 maka tampilkan tulisan "Tahun Kabisat", selain hal diatas tampilkan tulisan "Bukan Tahun Kabisat". 
 
@@ -68,11 +68,11 @@ PROGRAM tahun_kabisat
 DEKLARASI
   STORE "tahunyangdites" to any number
 DESKRIPSI
-  CALCULATE "tahunyangdites" divided 4
+  CALCULATE "tahunyangdites" modulus 4
   STORE "hasilhitung1" to the result of calculation
-  CALCULATE "tahunyangdites" divided 100
+  CALCULATE "tahunyangdites" modulus 100
   STORE "hasilhitung2" to the result of calculation
-  CALCULATE "tahunyangdites" divided 400
+  CALCULATE "tahunyangdites" modulus 400
   STORE "hasilhitung3" to the result of calculation
   IF "hasilhitung1" equals to 0 and "hasilhitung2" equal to 0 and "hasilhitungan3" equals to 0 
     DISPLAY "Tahun kabisat!"
