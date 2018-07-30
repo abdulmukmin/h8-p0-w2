@@ -1,0 +1,145 @@
+---------------------------------------------
+1.Newton Second Law
+->Algoritma
+1.Simpan "massa benda" dengan nilai 600.
+2.Simpan "percepatan benda" dengan nilai 2.
+3.Simpan "resultan gaya", jangan diberi nilai. Ini akan kita isi nanti.
+4.Hitung perkalian "massa benda" dengan "percepatan benda".
+5.Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "resultan gaya".
+6.Tampilkan nilai dari "resultan gaya"
+
+
+-> Pseudocode 
+PROGRAM newton_second_law
+input
+  STORE "massaBenda" to 600
+  STORE "percepatanBenda" to 2
+  STORE "resultGaya" without any number
+DESKRIPSI
+  CALCULATE "massaBenda" times "percepatanBenda"
+  SET "resultGaya" value with calculation result
+input
+  DISPLAY "resultGaya"
+END
+---------------------------------------------
+---------------------------------------------
+2.Tahun Kabisat
+
+->> Jika tahun habis di bagi 4 dan tidak habis di bagi 100.
+->Algoritma
+1.Simpan "tahun yang dites" dengan nilai berapapun.
+2.Simpan "jenis tahun" jangan diberi isian text. Ini akan kita isi nanti.
+3.Hitung pembagian "tahun yang dites" dengan 4.
+4.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 1"
+5.Hitung pembagian "tahun yang di tes" dengan 100.
+6.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 2"
+5.Jika hasil "hitungan 1" adalah 0 dan hasil "hitungan 2" bukan 0 maka tampilkan tulisan "Tahun Kabisat", selain hal diatas tampilkan tulisan "Bukan Tahun Kabisat". 
+
+-> Pseudocode 
+PROGRAM tahun_kabisat
+DEKLARASI
+  STORE "tahunyangdites" to any number
+DESKRIPSI
+  CALCULATE "tahunyangdites" divided 4
+  STORE "hasilhitung1" to the result of calculation
+  CALCULATE "tahunyangdites" divided 100
+  STORE "hasilhitung2" to the result of calculation
+  IF "hasilhitung1" equals to 0 and "hasilhitung2" not equal to 0 
+    DISPLAY "Tahun kabisat!"
+  ELSE
+    DISPLAY "Bukan Tahun kabisat!"
+END
+---------------------------------------------
+
+> Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+->Algoritma
+1.Simpan "tahun yang di tes" dengan nilai berapapun.
+2.Simpan "jenis tahun" jangan diberi isian text. Ini akan kita isi nanti.
+3.Hitung pembagian "tahun yang di tes" dengan 4.
+4.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 1".
+5.Hitung pembagian "tahun yang di tes" dengan 100.
+6.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 2".
+5.Hitung pembagian "tahun yang di tes" dengan 400.
+6.Setelah mendapatkan hasil perhitungan, simpan hasil perhitungan sebagai "hitungan 3"
+5.Jika hasil "hitungan 1" adalah 0 dan hasil "hitungan 2" adalah 0 dan "hasil perhitungan 3" adalah 0 maka tampilkan tulisan "Tahun Kabisat", selain hal diatas tampilkan tulisan "Bukan Tahun Kabisat". 
+
+-> Pseudocode 
+PROGRAM tahun_kabisat
+DEKLARASI
+  STORE "tahunyangdites" to any number
+DESKRIPSI
+  CALCULATE "tahunyangdites" divided 4
+  STORE "hasilhitung1" to the result of calculation
+  CALCULATE "tahunyangdites" divided 100
+  STORE "hasilhitung2" to the result of calculation
+  CALCULATE "tahunyangdites" divided 400
+  STORE "hasilhitung3" to the result of calculation
+  IF "hasilhitung1" equals to 0 and "hasilhitung2" equal to 0 and "hasilhitungan3" equals to 0 
+    DISPLAY "Tahun kabisat!"
+  ELSE
+    DISPLAY "Bukan Tahun kabisat!"
+END
+---------------------------------------------
+---------------------------------------------
+3.Laundry Day
+
+->Algoritma
+1.Simpan nilai "pakaian di mesin" dengan angka 0
+2.Ulangi step 3 selama "pakaian di mesin" belum mencapai 19. Jika "pakaian di mesin" sudah mencapai 19, lanjutkan ke step 4.
+3.Tambahkan "pakaian di mesin" dengan 1, agar semakin mendekati batas perulangan. Kembali ke step-2.
+4.Tampilkan "nyalakan mesin"
+
+-> Pseudocode 
+1.Hitung pakaian
+PROGRAM laundry_day
+DEKLARASI
+  STORE "pakaianDiMesin" to 0
+DESKRIPSI
+  WHILE "pakaianDiMesin" < 19
+    ADD "pakaianDiMesin" by 1  
+
+  DISPLAY "nyalakanMesin"
+END
+---------------------------------------------
+---------------------------------------------
+4.Periksa Kuku
+->Algoritma
+1.Simpan nilai "siswa/siswi" dengan angka 0.
+2.Ulangi step 3, 4, 5 selama "siswa/siswi" kurang dari 40. Jika "siswa/siswi" sudah mencapai 40, lanjutkan ke step 6.
+3.Lakukan "pemeriksaan kuku".
+4.Jika "pemeriksaan kuku" didapati "kuku panjang" maka masuk ke step 5a, jika tidak masuk ke step 5b. 
+5a.Lakukan "beri hukuman". Agar semakin mendekati batas perulangan maka tambahkan 1 "siswa/siswi" dan Kembali ke step-2.
+5b.Lakukan "beri pujian". Agar semakin mendekati batas perulangan maka tambahkan 1 "siswa/siswi" dan Kembali ke step-2.
+6.Lakukan "pemeriksaan kuku terakhir".
+7.Jika "pemeriksaan kuku terakhir" didapati "kuku panjang" maka masuk ke step 8a, jika tidak masuk ke step 8b. 
+8a.Lakukan "beri hukuman" dan Kembali ke step-2.
+8b.Lakukan "beri pujian" dan Kembali ke step-2.
+9.Tampilkan "Pemeriksaan Selesai".
+
+->Pseudocode
+PROGRAM periksa_kuku
+DEKLARASI
+  STORE "siswasiswi" to 0
+DESKRIPSI
+  WHILE "siswaSiswi" <40
+    Do "pemeriksaanKuku"  
+    STORE "hasilPemeriksaan" to the result of DO 
+    IF "kukuPanjang"
+      DO "beriHukuman"
+      ADD "siswaSiswi" by 1
+    ELSE
+      DO "beriPujian"
+      ADD "siswaSiswi" by 1
+
+//Deskripsi dibawah diluar looping karena jumlah siswa diatas sudah 
+  IF "siswaSiswi" = 40
+    Do "pemeriksaanKukuTerakhir"  
+    STORE "hasilPemeriksaanTerakhir" to the result of DO 
+    IF "kukuPanjang"
+      DO "beriHukuman"
+    ELSE
+      DO "beriPujian"
+  Else
+    DISPLAY "pemeriksaanSelesai"
+END
+---------------------------------------------
