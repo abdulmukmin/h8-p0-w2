@@ -41,7 +41,7 @@ for(var loopingke2 = 20; loopingke2 > 0; loopingke2 -=1){
 ////2.a Apabila angka counter adalah angka genap, tuliskan GENAP
 ////2.b Apabila angka counter adalah angka ganjil, tuliskan GANJIL
 
-var perulangan1 = 1
+var perulangan1 = 0
 while (perulangan1<100) {
    perulangan1+=1
    if(perulangan1%2){
@@ -66,33 +66,31 @@ var kelipatan10 = 0
 
 //perulangan2
 while (perulangan2<100-2) {
-   perulangan2+=2
-   kelipatan3+=3
-   if(perulangan2===kelipatan3){
-     console.log('3 KELIPATAN 3')
+   hasilPerulangan2=perulangan2+=2
+   if (hasilPerulangan2 % 3===0){
+     console.log(hasilPerulangan2+ ' KELIPATAN 3')
    } else {
      console.log('')
    }
-  }
+}
+
 
 //perulangan5
 while (perulangan5<100-5) {
-   perulangan5+=5
-   kelipatan6+=6
-   if(perulangan5===kelipatan6){
-     console.log('6 KELIPATAN 6')
-   } else {
+  hasilPerulangan5=perulangan5+=5
+  if(hasilPerulangan5 % 6=== 0){
+     console.log(hasilPerulangan5+' KELIPATAN 6')
+     } else {
      console.log('')
-   }
   }
+}
 
 //perulangan9
 while (perulangan9<100) {
-   perulangan9+=9
-   kelipatan10+=10
-     if(perulangan9===kelipatan10){
-     console.log('10 KELIPATAN 10')
-   } else {
-     console.log('')
-   }
+  hasilPerulangan9=perulangan9+=9
+  if(hasilPerulangan9 % 10 === 0){
+    console.log(hasilPerulangan9+' KELIPATAN 10')
+    } else {
+    console.log('')
   }
+}
