@@ -13,7 +13,7 @@ while (row1 > 0){
 var row2 = 5
 
 for (var baris = 1; baris <= row2; baris++){
-  baris + 1
+  
 
   var bintang =''
   for (var kolom = 1; kolom <= row2; kolom++){
@@ -31,7 +31,7 @@ for (var baris = 1; baris <= row2; baris++){
 //3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 var row3 = 5
 for (var baris=0; baris<=row3; baris++){
-  baris + 1
+  
 
   var bintang = ''
   for (var kolom=0; kolom < baris; kolom++){
