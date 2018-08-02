@@ -2,7 +2,7 @@
 //Tugas 1-----------------------------------------------
 var nilai ='Halo Function!'
 function shoutOut() {
-  return console.log(nilai)
+  return (nilai)
 }
 console.log(shoutOut())
 
@@ -28,7 +28,7 @@ var hobby = "gaming"
 var fullSentence = processSentence(name, age, address, hobby)
 
 function processSentence(name, age, address, hobby){
-  console.log('Nama saya '+name+', umur saya '+age+' tahun, alamat saya di '+address+', dan saya punya hobby yaitu '+hobby)
+  return ('Nama saya '+name+', umur saya '+age+' tahun, alamat saya di '+address+', dan saya punya hobby yaitu '+hobby)
 }
 
 console.log(fullSentence)
