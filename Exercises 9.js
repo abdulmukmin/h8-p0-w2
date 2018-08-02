@@ -1,10 +1,10 @@
 //------------------------------------------------------
 //Tugas 1-----------------------------------------------
-var nilai ='Halo Function!'
-function shoutOut() {
+
+function shoutOut(nilai) {
   return (nilai)
 }
-console.log(shoutOut())
+console.log(shoutOut('Halo Function!'))
 
 //------------------------------------------------------
 //Tugas 2-----------------------------------------------
