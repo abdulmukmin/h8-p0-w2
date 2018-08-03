@@ -1,11 +1,12 @@
 //---------------------------------------------
 //Logic Challenge - X dan O--------------------
 
-var str = ''
+
+
+function xo(str){
 var x = 0
 var o = 0
 
-function xo(str){
   for(i = 0; i <= str.length ; i++){
     str.charAt(i)
     if (str.charAt(i)==='x'){
@@ -23,7 +24,7 @@ function xo(str){
 }
 
 console.log(xo('xoxoxo')); // true
-//console.log(xo('oxooxo')); // false
-//console.log(xo('oxo')); // false
-//console.log(xo('xxxooo')); // true
-//console.log(xo('xoxooxxo')); // true
+console.log(xo('oxooxo')); // false
+console.log(xo('oxo')); // false
+console.log(xo('xxxooo')); // true
+console.log(xo('xoxooxxo')); // true
