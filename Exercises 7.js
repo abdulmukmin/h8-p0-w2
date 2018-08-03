@@ -18,7 +18,7 @@ for (var baris = 1; baris <= row2; baris++){
   var bintang =''
   for (var kolom = 1; kolom <= row2; kolom++){
     bintang = bintang + '*'
-    kolom + 1
+
     }
   console.log(bintang)
 }
