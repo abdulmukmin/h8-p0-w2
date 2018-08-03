@@ -86,7 +86,7 @@ END
 -> Pseudocode 
 STORE "pakaianDiMesin" to 0
 WHILE "pakaianDiMesin" < 19
-ADD "pakaianDiMesin" by 1  
+  ADD "pakaianDiMesin" by 1  
 DISPLAY "nyalakanMesin"
 
 ---------------------------------------------
@@ -108,22 +108,23 @@ DISPLAY "nyalakanMesin"
 ->Pseudocode
 STORE "siswasiswi" to 0
 WHILE "siswaSiswi" <40
-Do "pemeriksaanKuku"  
-STORE "hasilPemeriksaan" to the result of DO 
-IF "kukuPanjang"
- DO "beriHukuman"
+ Do "pemeriksaanKuku"  
+ STORE "hasilPemeriksaan" to the result of DO 
+ IF "kukuPanjang"
+   DO "beriHukuman"
+   ADD "siswaSiswi" by 1
+ ELSE
+   DO "beriPujian"  
  ADD "siswaSiswi" by 1
-ELSE
- DO "beriPujian"  
- ADD "siswaSiswi" by 1
+
 //Deskripsi dibawah diluar looping karena jumlah siswa diatas sudah mencapai 39 orang, tinggal 1 orang lagi yang masih harus diperiksa kukunya
 IF "siswaSiswi" = 40
- Do "pemeriksaanKukuTerakhir"  
+  Do "pemeriksaanKukuTerakhir"  
 STORE "hasilPemeriksaanTerakhir" to the result of DO 
- IF "kukuPanjang"
- DO "beriHukuman"
+  IF "kukuPanjang"
+    DO "beriHukuman"
   ELSE
- DO "beriPujian"
+    DO "beriPujian"
   Else
- DISPLAY "pemeriksaanSelesai"
+DISPLAY "pemeriksaanSelesai"
 ---------------------------------------------
