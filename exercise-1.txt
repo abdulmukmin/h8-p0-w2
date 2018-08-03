@@ -40,9 +40,9 @@ STORE "hasilhitung1" to the result of calculation
 CALCULATE "tahunyangdites" modulus 100
 STORE "hasilhitung2" to the result of calculation
 IF "hasilhitung1" equals to 0 and "hasilhitung2" not equal to 0 
-DISPLAY "Tahun kabisat!"
+  DISPLAY "Tahun kabisat!"
 ELSE
-DISPLAY "Bukan Tahun kabisat!"
+  DISPLAY "Bukan Tahun kabisat!"
 END
 ---------------------------------------------
 
@@ -69,10 +69,10 @@ STORE "hasilhitung2" to the result of calculation
 CALCULATE "tahunyangdites" modulus 400
 STORE "hasilhitung3" to the result of calculation
 IF "hasilhitung1" equals to 0 and "hasilhitung2" equal to 0 and "hasilhitungan3" equals to 0 
-DISPLAY "Tahun kabisat!"
+  DISPLAY "Tahun kabisat!"
 ELSE
-DISPLAY "Bukan Tahun kabisat!"
-
+  DISPLAY "Bukan Tahun kabisat!"
+END
 ---------------------------------------------
 ---------------------------------------------
 3.Laundry Day
