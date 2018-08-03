@@ -2,7 +2,15 @@
 //Logic Challenge - Balik Kata-----------------------------
 
 function balikKata(kata) {
-  return kata.split('').reverse().join('');
+
+var jumlahKata = (kata.length-1)
+var kataTerbalik =''
+
+for(k=jumlahKata;k>=0;k--){
+  kataTerbalik = kataTerbalik + kata.charAt(k)
+  //console.log( kataTerbalik )
+}
+ return kataTerbalik
 }
 
 // TEST CASES
